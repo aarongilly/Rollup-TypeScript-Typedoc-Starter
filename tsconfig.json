@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+    },
+    "typedocOptions":{
+        "entryPoints": ["src/app.ts", "src/lib.ts"],
+        "out": "docs"
+    }
+}

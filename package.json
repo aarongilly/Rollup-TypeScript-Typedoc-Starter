@@ -1,0 +1,35 @@
+{
+    "name": "starter",
+    "version": "0.0.1",
+    "browser": "dist/starter.umd.js",
+    "dependencies": {
+        "@types/node": "^8.10.66",
+        "typedoc-plugin-mermaid": "^1.6.0"
+    },
+    "devDependencies": {
+        "rollup": "^1.0.0",
+        "rollup-plugin-node-resolve": "^4.0.0",
+        "rollup-plugin-typescript": "^1.0.0",
+        "ts-node": "^7.0.1",
+        "tslib": "^1.9.3",
+        "typedoc": "^0.22.11",
+        "typescript": "^4.3.5"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "makedocs": "typedoc --tsconfig tsconfig.json",
+        "pretest": "npm run build"
+    },
+    "files": [
+        "dist"
+    ],
+    "comments": {
+        "todos": [
+            "rename name",
+            "propogate name to browser",
+            "npm install",
+            "install other packages"
+        ]
+    }
+}
